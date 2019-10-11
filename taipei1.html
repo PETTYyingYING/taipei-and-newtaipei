@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<meta charset="UTF-8">	
+<title>大台北玩樂地圖</title>
+<style type="text/css">
+	body{margin:0px;}
+	h1{font-family: Microsoft JhengHei;}
+	a{color:black}
+	.mySlides {display:none;}
+</style> 
+</head>
+<body>
+  <div style="height:70px;background-color:#ce5b78">
+<div>&nbsp;&nbsp;&nbsp;&nbsp;<img src="bear2.png" onclick="openNav()" style="width: 30px;padding-top: 15px;padding-bottom: 15px;height: 60px;">  Please open my heart</div>
+</div>
+<style>
+body
+{background-color:#efc3c2}
+h1{
+    font-family: Microsoft JhengHei;
+  }
+</style>
+
+
+ 
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <div style="background-color:#8f6256">
+  <button class="w3-button"onclick="closeNav()">Close &times;</button>
+  <h4><a href="taipei1.html" class="w3-bar-item w3-button"style="font-family: Microsoft JhengHei;">台北市地圖</a></h4>
+  <h4><a href="taipei2.html" class="w3-bar-item w3-button"style="font-family: Microsoft JhengHei;">新北市地圖</a></h4>
+  <h4><a href="taipei3.html" class="w3-bar-item w3-button"style="font-family: Microsoft JhengHei;">台北市美食</a></h4>
+  <h4><a href="taipei4.html" class="w3-bar-item w3-button"style="font-family: Microsoft JhengHei;">新北市美食</a></h4>
+  <h4><a href="taipei5.html" class="w3-bar-item w3-button"style="font-family: Microsoft JhengHei;">台北市去哪</a></h4>
+  </div>
+</div>
+<div id="main">
+ <div>
+  <div style="background-color:#ce5b78""height:70px"> 
+  <div class="w3-container">
+  </div>
+ </div>
+</div>
+<div id="main">
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="taipei1.jpg" style="display: block; height: 400px;">
+  <img class="mySlides" src="newtaipei.jpg" style="display: block; height: 400px;">
+  <img class="mySlides" src="newtaipei2.jpg" style="display: block; height: 400px;">
+  
+  <img class="mySlides" src="newtaipei3.jpg" style="display: block; height: 400px;">
+  <img class="mySlides" src="taipei7.jpg" style="display: block; height: 400px;">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<h2 style="font-family:Microsoft JhengHei;
+    padding-left: 140px;margin-top: 0px"><mark>台北市</mark></h2>
+<div style="padding-left: 140px;">
+ <img src="567.png" alt="" width="800" height="1027" usemap="#Map"/>
+ <map name="Map">
+  <area shape="poly" coords="401,42,407,54,413,65,413,81,429,85,435,96,443,98,431,105,420,118,420,127,425,132,419,147,413,156,403,163,400,170,396,176,403,185,404,191,401,203,398,217,388,220,381,227,375,237,371,250,360,263,359,268,355,284,348,297,337,295,325,301,312,307,296,319,294,329,293,342,297,352,290,357,289,363,278,369,275,378,269,387,277,403,273,412,263,419,260,435,253,443,244,455,226,463,219,469,201,469,185,458,181,441,178,412,163,397,146,397,128,402,113,409,95,415,75,407,60,393,52,371,69,367,73,347,81,333,90,319,101,306,121,285,135,267,149,262,155,247,173,225,192,201,203,182,231,195,261,193,269,159,283,143,308,137,331,127,339,119,341,106,355,90,365,93,373,78,369,64,380,46,385,49,388,46,394,43" href="https://www.google.com/search?q=北投美食&rlz=1C1SQJL_zh-TWTW862TW862&oq=北投美食&aqs=chrome..69i57j0l5.6583j0j7&sourceid=chrome&ie=UTF-8" target="北投美食">
+  <area shape="poly" coords="447,101,454,99,459,102,466,100,474,98,474,108,478,118,470,129,472,136,468,146,470,158,474,166,474,175,468,179,456,192,452,198,458,208,476,210,488,220,496,218,504,237,502,249,496,258,513,268,515,282,520,299,547,319,550,323,548,333,552,344,560,346,556,354,542,358,536,362,536,372,531,378,522,402,506,401,498,405,490,404,480,419,468,429,464,430,459,437,448,432,429,436,422,446,417,455,414,460,389,464,380,475,369,486,361,486,346,492,334,485,322,485,308,495,298,505,290,514,278,526,275,539,274,548,267,545,261,539,241,532,222,536,212,537,208,537,194,514,180,496,169,485,155,468,133,457,111,452,91,451,74,446,56,440,44,426,46,411,54,401,73,411,90,414,107,414,128,408,144,403,158,400,166,402,174,412,177,422,180,437,180,451,184,462,204,470,224,472,240,464,246,457,252,446,260,441,261,426,267,418,276,414,276,400,271,389,280,377,283,370,292,370,292,360,297,353,299,343,299,334,294,324,303,316,327,306,344,300,362,285,360,262,372,254,381,233,400,223,406,196,400,176,412,163,417,155,420,142,423,124,433,107" href="https://www.google.com/search?rlz=1C1SQJL_zh-TWTW862TW862&sxsrf=ACYBGNSmoMMkbN-Arz7dWoydxAWuve3NQg%3A1570739039230&ei=X5OfXZDUDaiKr7wP3Pa_mAU&q=士林美食&oq=士林美食&gs_l=psy-ab.3..0j0i7i30j0j0i7i30l2j0j0i7i30l4.353391.355737..356768...0.1..0.88.398.7......0....1..gws-wiz.......0i71j0i67j0i131i67j0i8i7i30.fnAry9MyyH4&ved=0ahUKEwjQ_97zwpLlAhUoxYsBHVz7D1MQ4dUDCAs&uact=5" target="士林美食">
+  <area shape="poly" coords="513,401,522,421,541,427,553,431,574,439,587,445,594,455,609,471,623,471,617,484,631,505,625,515,630,523,618,529,611,543,613,559,605,555,603,569,599,583,590,585,588,593,580,592,571,602,555,607,539,613,524,613,517,613,519,605,514,601,506,606,501,619,490,627,466,635,455,635,443,637,437,626,433,609,426,590,439,572,439,555,424,541,405,535,400,517,390,511,381,503,371,491,377,478,392,465,417,461,428,437,449,433,457,439,469,430,480,423,493,407" href="https://www.google.com/search?rlz=1C1SQJL_zh-TWTW862TW862&sxsrf=ACYBGNSFw3Kfi9WKB7LfJIOnE6x1rwpwQQ%3A1570739397336&ei=xZSfXZWNFL6Or7wP_ZKuoAw&q=內湖美食&oq=內湖美食&gs_l=psy-ab.3..0j0i7i30j0j0i7i30l6j0.105785.107164..107725...0.0..0.76.376.6......0....1..gws-wiz.yBTHvaiUcyc&ved=0ahUKEwjVg8CexJLlAhU-x4sBHX2JC8QQ4dUDCAs&uact=5" target="內湖美食">
+  <area shape="poly" coords="211,540,225,538,242,535,249,530,257,537,265,543,260,547,257,563,253,585,254,608,257,628,257,646,247,655,229,653,219,655,204,649,216,625,212,612,214,597,217,583,215,569" href="https://www.google.com/search?rlz=1C1SQJL_zh-TWTW862TW862&sxsrf=ACYBGNTgf890hv2moIKlkzcT6B07acfdtw%3A1570739506067&ei=MpWfXcPXA-yZr7wP_r6hgAs&q=大同美食&oq=大同美食&gs_l=psy-ab.3..0i7i30j0i67j0i7i30l7j0.78940.80709..82364...0.1..0.148.481.6j1......0....1..gws-wiz.......0i71.qlY30KYyhNE&ved=0ahUKEwjDuKzSxJLlAhXszIsBHX5fCLAQ4dUDCAs&uact=5" target="大同美食">
+  <area shape="poly" coords="314,493,328,485,341,491,351,491,362,488,373,497,383,505,387,518,397,515,405,530,415,535,423,541,402,558,383,548,371,549,365,559,353,563,327,563,319,566,324,573,335,579,350,587,363,597,351,607,342,626,339,638,339,650,338,661,315,664,299,658,277,651,257,654,261,642,262,626,258,598,257,561,266,544,277,554,279,527" href="https://www.google.com/search?rlz=1C1SQJL_zh-TWTW862TW862&sxsrf=ACYBGNTELJ80RI8Qwp2jIDoJ19-kc77GSA%3A1570739589658&ei=hZWfXdHZJ4WLr7wPxfOzIA&q=中山美食&oq=中山美食&gs_l=psy-ab.3..0i67j0i7i30l9.112569.114071..116844...0.0..0.122.479.5j2......0....1..gws-wiz.IKTE1XUPkQU&ved=0ahUKEwiRsJr6xJLlAhWFxYsBHcX5DAQQ4dUDCAs&uact=5" target="中山美食">
+  <area shape="poly" coords="323,571,331,564,349,563,370,554,382,550,400,559,413,551,433,542,430,555,437,555,437,571,429,581,427,597,433,607,439,615,436,633,446,637,455,638,462,637,463,646,454,646,440,645,423,646,401,658,385,665,372,665,349,664,335,659,341,642,350,617,361,601,365,592" href="https://www.google.com/search?rlz=1C1SQJL_zh-TWTW862TW862&sxsrf=ACYBGNTcPvcas9--Ehm8I8LknbR6pka6Rg%3A1570739707574&ei=-5WfXYrYIoqymAWgyJq4Dw&q=%E6%9D%BE%E5%B1%B1%E7%BE%8E%E9%A3%9F&oq=%E6%9D%BE%E5%B1%B1%E7%BE%8E%E9%A3%9F&gs_l=psy-ab.3..0j0i7i30l7j0i67j0.62159.63522..63924...0.0..0.89.412.7......0....1..gws-wiz.nr3KkBbwwBM&ved=0ahUKEwjKwbeyxZLlAhUKGaYKHSCkBvcQ4dUDCAs&uact=5" target="松山美食">
+  <area shape="poly" coords="203,653,212,657,218,657,221,667,215,680,210,702,202,720,209,733,216,743,224,747,232,747,232,755,221,753,215,759,208,770,196,781,185,793,170,801,160,795,155,782,153,768,151,752,145,729,137,711,137,689" href="https://www.google.com/search?rlz=1C1SQJL_zh-TWTW862TW862&sxsrf=ACYBGNTNxxYlKzABlxHSjdTBVaZ78hPDVQ%3A1570739772672&ei=PJafXdDXKNaXr7wPq-a30Ag&q=萬華美食&oq=萬華美食&gs_l=psy-ab.3..0l2j0i7i30l4j0l2j0i7i30j0.58056.61653..62077...1.0..0.103.485.7j1......0....1..gws-wiz.......0i8i7i30.xXCaHrWBNuA&ved=0ahUKEwjQ5bzRxZLlAhXWy4sBHSvzDYoQ4dUDCAs&uact=5" target="萬華美食">
+  <area shape="poly" coords="227,657,241,657,259,657,279,661,296,659,303,668,294,683,275,695,271,707,264,729,273,743,283,761,301,772,310,791,299,800,284,791,267,771,249,754,232,750,233,741,225,741,219,733,209,721" href="https://www.google.com/search?rlz=1C1SQJL_zh-TWTW862TW862&sxsrf=ACYBGNTJvneAt8mwZ5Fz3t7E2mOBPY7T2g%3A1570739835890&ei=e5afXcL8Ne-Wr7wP67CtiAg&q=中正美食&oq=中正美食&gs_l=psy-ab.3..0i7i30l2j0i67j0i7i30l7.45478.47097..48324...0.0..0.91.403.7......0....1..gws-wiz.fWT7hvgH1Yo&ved=0ahUKEwiCps_vxZLlAhVvy4sBHWtYC4EQ4dUDCAs&uact=5" target="中正美食">
+  <area shape="poly" coords="304,664,323,669,344,663,357,665,383,669,387,720,366,743,384,755,409,785,407,791,417,803,395,797,386,789,375,800,361,799,345,807,328,801,316,793,302,773,283,759,271,740,264,727,275,699" href="https://www.google.com/search?rlz=1C1SQJL_zh-TWTW862TW862&sxsrf=ACYBGNQuiCcDSKXptlbVQOn1aKl5aTA_fA%3A1570739885259&ei=rZafXc62D-yUr7wPp9W22AI&q=%E5%A4%A7%E5%AE%89%E7%BE%8E%E9%A3%9F&oq=%E5%A4%A7%E5%AE%89%E7%BE%8E%E9%A3%9F&gs_l=psy-ab.3..0j0i7i30l2j0i67j0i7i30l4j0i67j0i7i30.41273.42240..42819...0.1..0.61.254.5......0....1..gws-wiz.......0i71.6GkwTCeOp0s&ved=0ahUKEwiOwZSHxpLlAhVsyosBHaeqDSsQ4dUDCAs&uact=5" target="大安美食">
+  <area shape="poly" coords="386,669,406,659,432,647,449,649,463,645,465,661,473,668,489,673,491,685,497,697,499,705,507,715,492,729,486,743,479,757,469,769,457,779,445,780,433,786,420,799,407,787,392,760,374,745,389,724,387,685" href="https://www.google.com/search?rlz=1C1SQJL_zh-TWTW862TW862&sxsrf=ACYBGNTg0BeI-uMtkFHRIx-buC2-ruL1fg%3A1570739929295&ei=2ZafXZTXEe2Yr7wPwO2agAM&q=信義美食&oq=信義美食&gs_l=psy-ab.3..0i7i30j0i324j0i7i30l8.48208.51817..52427...3.0..0.69.427.8......0....1..gws-wiz.......0i67j0i131j38.xNs3-7jOwjs&ved=0ahUKEwjUp5ScxpLlAhVtzIsBHcC2BjAQ4dUDCAs&uact=5" target="信義美食">
+  <area shape="poly" coords="464,641,465,658,471,666,479,674,491,675,492,683,495,691,499,704,507,719,500,724,489,738,484,753,479,763,468,771,463,781,460,789,474,785,488,786,497,781,512,777,519,781,532,781,547,775,549,767,559,759,569,757,575,757,583,763,599,764,599,767,620,771,633,760,648,745,647,737,657,745,671,744,687,743,693,755,703,748,715,742,730,741,735,745,747,746,759,741,761,731,755,723,745,722,736,729,727,733,716,735,699,733,684,729,681,720,669,713,651,704,634,697,611,685,603,672,593,652,593,635,602,635,607,626,613,621,609,611,597,598,584,588,568,607,552,613,533,616,521,617,515,613,521,605,515,600,509,607,499,623,482,631" href="https://www.google.com/search?rlz=1C1SQJL_zh-TWTW862TW862&sxsrf=ACYBGNSW4hOWpgUBc6jsl3uCNIbiX73Xlg%3A1570739982897&ei=DpefXfmwNvCWr7wPvMq6uAo&q=%E5%8D%97%E6%B8%AF%E7%BE%8E%E9%A3%9F&oq=%E5%8D%97%E6%B8%AF%E7%BE%8E%E9%A3%9F&gs_l=psy-ab.3..0i67j0i7i30l6j0j0i7i30l2.83327.85776..86399...0.0..0.63.374.7......0....1..gws-wiz.lsIr_V8HgJI&ved=0ahUKEwj579u1xpLlAhVwy4sBHTylDqcQ4dUDCAs&uact=5" target="南港美食">
+  <area shape="poly" coords="315,797,324,802,337,803,348,803,359,800,378,803,388,795,401,803,417,809,437,797,441,783,451,782,461,783,465,793,485,790,499,783,511,783,519,779,524,785,519,793,519,804,519,820,531,817,535,833,533,847,523,855,532,873,542,874,531,889,535,907,535,917,542,927,555,931,574,933,591,944,602,957,589,959,579,963,565,971,548,975,538,984,517,984,513,967,503,967,491,970,481,967,461,965,446,960,441,973,421,967,400,965,393,946,395,934,383,927,378,915,379,891,373,881,364,884,356,895,345,886,338,877,325,877,321,863,311,855,299,871,283,880,294,858,301,840,302,822,304,804" href="https://www.google.com/search?rlz=1C1SQJL_zh-TWTW862TW862&sxsrf=ACYBGNTUOmfuYQ91ZMC-8zHNMG_lk5AdiA%3A1570740070461&ei=ZpefXb3eG4qF0wSevqGICw&q=文山美食&oq=文山美食&gs_l=psy-ab.3..0i7i30l2j0l2j0i67j0i7i30l5.121582.122901..124236...0.0..0.66.339.6......0....1..gws-wiz.......0i8i7i30.687x-JhI3OE&ved=0ahUKEwi9qbzfxpLlAhWKwpQKHR5fCLEQ4dUDCAs&uact=5" target="文山美食">
+</map>
+</style>
+</map>
+<div/>
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+function openNav() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+
+</script>
+</div>
+</body>
+</html>
